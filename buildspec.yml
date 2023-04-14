@@ -15,7 +15,6 @@ phases:
   pre_build:
     commands:
       - echo Prebuild ops
-      - pip install --upgrade pip -r requirements.txt
 
   build:
     commands:
