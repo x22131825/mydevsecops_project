@@ -7,7 +7,6 @@ certifi==2022.12.7
 charset-normalizer==2.0.12
 colorama==0.4.3
 distlib==0.3.6
-Django==4.2
 filelock==3.11.0
 idna==3.4
 jmespath==1.0.1
