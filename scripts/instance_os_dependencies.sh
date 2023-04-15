@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-
-sudo apt update
+sudo service systemd-resolved restart
+sudo apt-get update
 sudo apt install ruby-full
 sudo apt install wget
 
