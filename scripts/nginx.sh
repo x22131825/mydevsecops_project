@@ -4,7 +4,7 @@
 sudo systemctl daemon-reload
 sudo rm -f /etc/nginx/sites-enabled/default
 
-sudo cp /home/ubuntu/mydevsecproject/nginx/nginx.conf /etc/nginx/sites-available/blog
+sudo cp /home/ubuntu/mydevsecproject/nginx/nginx.conf /etc/nginx/sites-available/mydevsecproject
 sudo ln -s /etc/nginx/sites-available/mydevsecproject /etc/nginx/sites-enabled/
 #sudo ln -s /etc/nginx/sites-available/mydevsecproject /etc/nginx/sites-enabled
 sudo nginx -t
