@@ -15,7 +15,7 @@ phases:
   pre_build:
     commands:
       - echo Prebuild ops
-      - pip3 install -r requirements.txt
+      - pip3 install django==2.1.15 -r requirements.txt
 
   build:
     commands:
